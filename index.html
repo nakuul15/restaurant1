@@ -42,6 +42,9 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a role="button" class="btn btn-sm btn-warning btn-block" href="*">Reserve Table</a>
+                </div>
             </div>
         </div>
     </header>
@@ -71,11 +74,12 @@
             </div>
             <div class="col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center flex-last" src="img/buffet.png" alt="Buffet">
+                    
                     <div class="media-body flex-first">
                         <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">HOT</span></h2>
                         <p class="hidden-xs-down">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person.</p>
                     </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center flex-last" src="img/buffet.png" alt="Buffet">
                 </div>
             </div>
         </div>
@@ -103,17 +107,72 @@
         </div>
 
     </div>
-
+    <div class="row row-content justify-content-center">
+        <div class="col-sm-7"> 
+           <div class="card" id="reserving"> 
+            <h3 class="card-header text-black bg-warning">Reserve a Table</h3>
+            <div class="card-body">
+                <form>
+                    <div class="form-group row">
+                        <label for="inlineRadioOptions" class="col-md-2 col-form-label">Number of Guests</label>
+                            <div class="col-md-10">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                    <label class="form-check-label" for="inlineRadio4">4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                                    <label class="form-check-label" for="inlineRadio5">5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                                    <label class="form-check-label" for="inlineRadio6">6</label>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="dateandtime" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                        <div class="col-6 col-md-5">
+                            <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                        </div>
+                        <div class="col-6 col-md-5">
+                            <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Reserve</button>
+                        </div>
+                    </div>
+    
+                </form>
+            </div>
+          </div>
+        </div>     
+    </div>
+</div>
     <footer class="footer">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="https://coursera-assessments.s3.amazonaws.com/assessments/1600685539098/9f55ee5e-770c-4095-d73f-4322fe2f8c7d/aboutus.html#">Home</a></li>
-                        <li><a href="https://coursera-assessments.s3.amazonaws.com/assessments/1600685539098/9f55ee5e-770c-4095-d73f-4322fe2f8c7d/aboutus.html#">About</a></li>
-                        <li><a href="https://coursera-assessments.s3.amazonaws.com/assessments/1600685539098/9f55ee5e-770c-4095-d73f-4322fe2f8c7d/aboutus.html#">Menu</a></li>
-                        <li><a href="https://coursera-assessments.s3.amazonaws.com/assessments/1600685539098/9f55ee5e-770c-4095-d73f-4322fe2f8c7d/aboutus.html#">Contact</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
